@@ -23,6 +23,7 @@ public class ComparatorPractice {
         // Comparator to sort by absolute value
         Comparator<Integer> absComparator = (a, b) -> Integer.compare(Math.abs(a), Math.abs(b));
         numbers.sort(absComparator);
++
 
         System.out.println(numbers); // Outputs: [-2, 3, 5, -7, -10]
 
